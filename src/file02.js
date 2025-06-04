@@ -19,7 +19,14 @@ const frameworks = [
 /**
  * 1. Itere el arreglo frameworks.
  * Referencia: https://javascript.info/array#loops
- * 
+ */
+
+for (let framework of frameworks) {
+  
+
+  
+}
+ /**
  * 2. En cada iteración, toma una cadena del arreglo y divídela en partes usando el separador "|".
  *    Referencia: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/split
  *   
