@@ -22,9 +22,16 @@ const frameworks = [
  */
 
 for (let framework of frameworks) {
-  
+  const [name, releaseDate, usersName, popularityPercentage] = framework.split("|");
 
+  const frameworkObj = {
+    frameworkName: name.trim(),
+    releaseDate: releaseDate.trim(),
+    usersName: usersName.trim(),
+    popularityPercentage: popularityPercentage.trim()
+  };
   
+  addRow(frameworkObj, "data-frameworks");
 }
  /**
  * 2. En cada iteración, toma una cadena del arreglo y divídela en partes usando el separador "|".
